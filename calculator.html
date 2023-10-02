@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="calculator_style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body>
+        <div>
+            <div class="display">
+                <label for="">calculator</label>
+                <input id="calc" type="text" name="result" value="" readonly><br>
+                <input id="result" type="text" name="result" value="" placeholder="0" readonly>
+            </div>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><button type="button" name="DEL" class="button clear">DEL</button></td>
+                        <td><button type="button" name="AC" class="button clear">AC</button></td>
+                        <td><button type="button" name="On" class="button back">On</button></td>
+                        <td><button type="button" name="%" class="button sygn">%</button></td>
+                    </tr>
+                    <tr>
+                        <td><button type="button" name="7" class="button operand">7</button></td>
+                        <td><button type="button" name="8" class="button operand">8</button></td>
+                        <td><button type="button" name="9" class="button operand">9</button></td>
+                        <td><button type="button" name="/" class="button sygn">/</button></td>
+                    </tr>
+                    <tr>
+                        <td><button type="button" name="4" class="button operand">4</button></td>
+                        <td><button type="button" name="5" class="button operand">5</button></td>
+                        <td><button type="button" name="6" class="button operand">6</button></td>
+                        <td><button type="button" name="*" class="button sygn">*</button></td>
+                    </tr>
+                    <tr>
+                        <td><button type="button" name="1" class="button operand">1</button></td>
+                        <td><button type="button" name="2" class="button operand">2</button></td>
+                        <td><button type="button" name="3" class="button operand">3</button></td>
+                        <td><button type="button" name="-" class="button sygn">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button type="button" name="0" class="button operand">0</button></td>
+                        <td><button type="button" name="." class="button operand">.</button></td>
+                        <td><button type="button" name="=" class="button equal">=</button></td>
+                        <td><button type="button" name="+" class="button sygn">+</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <script type="text/javascript" src="calculator.js"></script>
+    </body>
+</html>
